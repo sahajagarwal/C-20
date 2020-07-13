@@ -25,21 +25,18 @@ function draw() {
       car.shapeColor=(0,255,0);
       textSize(30);
       text("this car is not lethal for passengers",200,200);
-      console.log("neev");
     }
   
     if(deformation>100 && deformation<180){
       car.shapeColor=(230,230,0);
       textSize(30);
       text("this car is partially lethal for passengers",200,200);
-      console.log("neev");
     }
 
     if( deformation>180){
       car.shapeColor=(255,0,0);
       textSize(30);
       text("this car is lethal for passengers",200,200);
-      console.log("neev");
     }
   }
   
